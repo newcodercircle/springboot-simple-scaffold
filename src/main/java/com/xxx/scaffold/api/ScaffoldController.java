@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ScaffoldController {
 
     @GetMapping
-    public String testScaffoldApi(){
+    public String testScaffoldApi() {
         return "scaffold api test";
     }
 }
