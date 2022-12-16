@@ -50,3 +50,8 @@ pmd {
     rulesMinimumPriority = 5
     ruleSets = ["category/java/bestpractices.xml"]
 }
+
+tasks.register('installGitHooks', Copy) {
+    from './scripts/hooks/pre-commit', './scripts/hooks/pre-push'
+    into './.git/hooks'
+}
