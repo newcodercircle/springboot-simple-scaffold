@@ -12,4 +12,8 @@ public class ScaffoldController {
     public String testScaffoldApi() {
         return "scaffold api test";
     }
+
+    private String testPmd() {
+        return "scaffold api test";
+    }
 }
